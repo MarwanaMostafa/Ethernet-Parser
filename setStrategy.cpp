@@ -4,8 +4,9 @@
 
 #include "setStrategy.h"
 #include "PacketData.h"
-#include <iostream>
 
+#include <iostream>
+#include <unordered_map>
 using namespace std;
 
 setStrategy::setStrategy(PacketData *strategy) {
@@ -20,6 +21,6 @@ void setStrategy::readData() {
     strategy->readPacket();
 }
 
-void setStrategy::writeData() {
-    strategy->readPacket();
+void setStrategy::writeData(unordered_map<string,string>& data) {
+    strategy->writePacket(data);
 }

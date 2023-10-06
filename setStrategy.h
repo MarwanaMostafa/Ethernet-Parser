@@ -14,7 +14,7 @@ private:
 public:
     setStrategy(PacketData* strategy);
     void readData();
-    void writeData();
+    void writeData(unordered_map<string,string>& data);
     PacketData* getStrategy();
 };
 

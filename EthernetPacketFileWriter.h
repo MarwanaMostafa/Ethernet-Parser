@@ -7,9 +7,12 @@
 
 #include "FilePacketData.h"
 
+#include <unordered_map>
+using namespace std;
+
 class EthernetPacketFileWriter : public FilePacketData{
 public:
-    void writePacket();
+    void writePacket(unordered_map<string,string>& data) override;
 };
 
 

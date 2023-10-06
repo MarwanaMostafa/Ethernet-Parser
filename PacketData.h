@@ -6,11 +6,13 @@
 #define ETHERNET_PARSER_PACKETDATA_H
 
 #include <string>
+#include <unordered_map>
 
+using namespace std;
 class PacketData {
 public:
     virtual void readPacket()=0;
-    virtual void writePacket() = 0;
+    virtual void writePacket(unordered_map<string,string>& data) = 0;
     virtual std::string getData() const=0;
 };
 
