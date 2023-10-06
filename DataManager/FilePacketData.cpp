@@ -11,7 +11,7 @@
 using namespace std;
 
 void FilePacketData::readPacket()  {
-    ifstream inputFile("D:\\Me\\LastVersionn\\Ethernet-Parser\\input_packets");
+    ifstream inputFile("../input_packets");
 
     if (!inputFile) {
         cerr << "Error opening the input file" << endl;

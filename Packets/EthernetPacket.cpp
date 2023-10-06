@@ -14,7 +14,7 @@ EthernetPacket::EthernetPacket(string dataPacket) {
 }
 string EthernetPacket::getDestinationAddress() { return this->destinationAddress; }
 string EthernetPacket::getSourceAddress() { return this->sourceAddress; }
-string EthernetPacket::getPcaket() { return this->packet; }
+string EthernetPacket::getPacket() { return this->packet; }
 string EthernetPacket::getCRC() { return this->CRC; }
 string EthernetPacket::getType() { return this->type; }
 void EthernetPacket::parse() {

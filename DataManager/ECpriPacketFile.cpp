@@ -21,7 +21,7 @@ void ECpriPacketFile ::writePacket(EthernetPacket *ethernetPacket) {
     return;
   }
   outputFile << "Packet # " << packetCounter << endl;
-  outputFile << ecpriPacket->getPcaket() << endl;
+  outputFile << ecpriPacket->getPacket() << endl;
   outputFile << "CRC: " << ecpriPacket->getCRC() << endl;
 
   outputFile << "Concatenation Indicator: "

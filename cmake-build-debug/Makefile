@@ -224,6 +224,30 @@ DataManager/RowPacketFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.s
 .PHONY : DataManager/RowPacketFile.cpp.s
 
+Factory/EthernetPacketFactory.obj: Factory/EthernetPacketFactory.cpp.obj
+.PHONY : Factory/EthernetPacketFactory.obj
+
+# target to build an object file
+Factory/EthernetPacketFactory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Factory/EthernetPacketFactory.cpp.obj
+.PHONY : Factory/EthernetPacketFactory.cpp.obj
+
+Factory/EthernetPacketFactory.i: Factory/EthernetPacketFactory.cpp.i
+.PHONY : Factory/EthernetPacketFactory.i
+
+# target to preprocess a source file
+Factory/EthernetPacketFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Factory/EthernetPacketFactory.cpp.i
+.PHONY : Factory/EthernetPacketFactory.cpp.i
+
+Factory/EthernetPacketFactory.s: Factory/EthernetPacketFactory.cpp.s
+.PHONY : Factory/EthernetPacketFactory.s
+
+# target to generate assembly for a file
+Factory/EthernetPacketFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Factory/EthernetPacketFactory.cpp.s
+.PHONY : Factory/EthernetPacketFactory.cpp.s
+
 Packets/ECpriPacket.obj: Packets/ECpriPacket.cpp.obj
 .PHONY : Packets/ECpriPacket.obj
 
@@ -341,6 +365,9 @@ help:
 	@echo ... DataManager/RowPacketFile.obj
 	@echo ... DataManager/RowPacketFile.i
 	@echo ... DataManager/RowPacketFile.s
+	@echo ... Factory/EthernetPacketFactory.obj
+	@echo ... Factory/EthernetPacketFactory.i
+	@echo ... Factory/EthernetPacketFactory.s
 	@echo ... Packets/ECpriPacket.obj
 	@echo ... Packets/ECpriPacket.i
 	@echo ... Packets/ECpriPacket.s

@@ -108,6 +108,12 @@
 		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/RowPacketFile.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Factory/EthernetPacketFactory.cpp">
+			<Option target="Ethernet_Parser"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Factory/EthernetPacketFactory.h">
+			<Option target="Ethernet_Parser"/>
+		</Unit>
 		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/ECpriPacket.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
