@@ -16,10 +16,8 @@ class FilePacketData : public PacketData {
 public:
     void readPacket() ;
     virtual void writePacket(unordered_map<string,string>& data) = 0;
-    std::string getData () const;
+    std::vector<string> getData () const;
 
-private:
-    std::string packetData;
 };
 
 

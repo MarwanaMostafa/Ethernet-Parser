@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -20,12 +21,11 @@ void FilePacketData::readPacket()  {
     string line;
 
     while (getline(inputFile, line)) {
-        packetData += line;
-        packetData+='\n';
+        fileData.push_back(line);
     }
     inputFile.close();
 }
 
-string FilePacketData::getData()const{
-    return packetData;
+vector<string> FilePacketData::getData()const{
+    return fileData;
 }

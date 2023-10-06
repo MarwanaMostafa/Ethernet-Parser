@@ -10,10 +10,12 @@
 
 using namespace std;
 class PacketData {
+protected:
+    vector<string> fileData;
 public:
     virtual void readPacket()=0;
     virtual void writePacket(unordered_map<string,string>& data) = 0;
-    virtual std::string getData() const=0;
+    virtual std::vector<string> getData() const=0;
 };
 
 
