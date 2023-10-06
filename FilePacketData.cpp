@@ -26,6 +26,6 @@ void FilePacketData::readPacket()  {
     inputFile.close();
 }
 
-string FilePacketData::getData(){
+string FilePacketData::getData()const{
     return packetData;
 }

@@ -5,17 +5,17 @@
 #ifndef ETHERNET_PARSER_FILEPACKETDATA_H
 #define ETHERNET_PARSER_FILEPACKETDATA_H
 
-#include "AppData.h"
+#include "PacketData.h"
 
 #include <iostream>
 #include <string>
 
 
-class FilePacketData : public AppData {
+class FilePacketData : public PacketData {
 public:
     void readPacket() ;
     virtual void writePacket() = 0;
-    std::string getData();
+    std::string getData () const;
 
 private:
     std::string packetData;

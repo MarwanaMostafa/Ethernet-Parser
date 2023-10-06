@@ -5,16 +5,17 @@
 #ifndef ETHERNET_PARSER_SETSTRATEGY_H
 #define ETHERNET_PARSER_SETSTRATEGY_H
 
-#include "AppData.h"
+#include "PacketData.h"
 
 class setStrategy {
 private:
-    AppData* strategy;
+    PacketData* strategy;
 
 public:
-    setStrategy(AppData* strategy);
+    setStrategy(PacketData* strategy);
     void readData();
     void writeData();
+    PacketData* getStrategy();
 };
 
 

@@ -3,19 +3,21 @@
 //
 
 #include "setStrategy.h"
-#include "AppData.h"
+#include "PacketData.h"
 #include <iostream>
 
 using namespace std;
 
-setStrategy::setStrategy(AppData *strategy) {
+setStrategy::setStrategy(PacketData *strategy) {
     this->strategy = strategy;
 }
 
-void setStrategy::readData() {
-    //cout << strategy;
-    strategy->readPacket();
+PacketData* setStrategy::getStrategy() {
+    return this->strategy;
+}
 
+void setStrategy::readData() {
+    strategy->readPacket();
 }
 
 void setStrategy::writeData() {
