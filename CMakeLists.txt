@@ -7,11 +7,10 @@ add_executable(Ethernet_Parser
         Packets/EthernetPacket.cpp
         main.cpp
         DataManager/PacketData.cpp
+        DataManager/output.txt
         DataManager/FilePacketData.cpp
-        DataManager/EthernetPacketFile.cpp
         Strategy/setStrategy.cpp
-        DataManager/ECpriPacketFile.cpp
         Packets/ECpriPacket.cpp
         Packets/RowEthernetPacket.cpp
 
-        )
+)

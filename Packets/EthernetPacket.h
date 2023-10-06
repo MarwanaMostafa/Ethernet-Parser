@@ -30,6 +30,7 @@ public:
   string getSourceAddress();
   string getCRC();
   string getType();
+  string getPcaket();
 };
 
 #endif // OOP_ETHERNETPACKET_H

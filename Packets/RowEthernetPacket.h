@@ -10,5 +10,6 @@
 class RowEthernetPacket : public EthernetPacket {
 public:
   RowEthernetPacket(string dataPacket);
+  void parse() override;
 };
 #endif // OOP_ROWETHERNETPACKET_H

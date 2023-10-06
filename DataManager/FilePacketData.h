@@ -9,13 +9,12 @@
 
 #include <iostream>
 #include <string>
-#include <unordered_map>
-
+#include "../Packets/EthernetPacket.h"
 using namespace std;
 class FilePacketData : public PacketData {
 public:
     void readPacket() ;
-    virtual void writePacket(unordered_map<string,string>& data) = 0;
+    virtual void writePacket(EthernetPacket* ethernetPacket) = 0;
     std::vector<string> getData () const;
 
 };

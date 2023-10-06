@@ -3,18 +3,20 @@
 //
 
 #include "ECpriPacket.h"
+#include "../DataManager/ECpriPacketFile.h"
 #include <iostream>
 #include <string>
 using namespace std;
 ECpriPacket::ECpriPacket(string dataPacket) : EthernetPacket(dataPacket) {}
-string ECpriPacket::getConcatenationIndicator() { return this->concatenationIndicator; }
+string ECpriPacket::getConcatenationIndicator() {
+  return this->concatenationIndicator;
+}
 string ECpriPacket::getMessageType() { return this->messageType; }
 string ECpriPacket::getPayloadSize() { return this->payloadSize; }
 string ECpriPacket::getProtocolVersion() { return this->protocolVersion; }
 string ECpriPacket::getRTCID() { return this->RTCID; }
 string ECpriPacket::getSequenceID() { return this->sequenceID; }
-void ECpriPacket::parse()
-{
+void ECpriPacket::parse() {
   EthernetPacket::parse();
 
   const int preambleLength = 16;
@@ -30,21 +32,29 @@ void ECpriPacket::parse()
   const int rtcIdLength = 4;
   const int sequenceIdLength = 4;
 
-  const int startingProtocolVersion = preambleLength + destinationAddressLength + sourceAddressLength + typeLength;
-  const int startingConcatenationIndicator = startingProtocolVersion + protocolVersionLength;
-  const int startingMessageType = startingConcatenationIndicator + concatenationIndicatorLength;
+  const int startingProtocolVersion = preambleLength +
+                                      destinationAddressLength +
+                                      sourceAddressLength + typeLength;
+  const int startingConcatenationIndicator =
+      startingProtocolVersion + protocolVersionLength;
+  const int startingMessageType =
+      startingConcatenationIndicator + concatenationIndicatorLength;
   const int startingPayloadSizen = startingMessageType + messageTypeLength;
   const int startingRTCID = startingPayloadSizen + payloadSizeLength;
   const int startingSequenceID = startingRTCID + rtcIdLength;
 
   // Parse and store various fields
-  this->protocolVersion = this->packet.substr(startingProtocolVersion, protocolVersionLength);
+  this->protocolVersion =
+      this->packet.substr(startingProtocolVersion, protocolVersionLength);
 
-  this->concatenationIndicator = this->packet.substr(startingConcatenationIndicator, concatenationIndicatorLength);
+  this->concatenationIndicator = this->packet.substr(
+      startingConcatenationIndicator, concatenationIndicatorLength);
 
-  this->messageType = this->packet.substr(startingMessageType, messageTypeLength);
+  this->messageType =
+      this->packet.substr(startingMessageType, messageTypeLength);
 
-  this->payloadSize = this->packet.substr(startingPayloadSizen, payloadSizeLength);
+  this->payloadSize =
+      this->packet.substr(startingPayloadSizen, payloadSizeLength);
 
   this->RTCID = this->packet.substr(startingRTCID, rtcIdLength);
 
@@ -55,7 +65,8 @@ void ECpriPacket::parse()
   std::cout << "Packet #" << packetCounter << ":" << std::endl;
   std::cout << this->packet << std::endl; // Output the entire raw data
   std::cout << "CRC: " << this->CRC << std::endl;
-  std::cout << "Concatenation Indicator: " << this->concatenationIndicator << std::endl;
+  std::cout << "Concatenation Indicator: " << this->concatenationIndicator
+            << std::endl;
   std::cout << "Destination Address: " << this->destinationAddress << std::endl;
   std::cout << "Message Type: " << this->messageType << std::endl;
   std::cout << "Payload Size: " << this->payloadSize << std::endl;
@@ -67,4 +78,6 @@ void ECpriPacket::parse()
   std::cout << std::string(160, '*') << std::endl; // Output separator
 
   packetCounter++; // Increment the packet counter for the next packet
+  ECpriPacketFile writer;
+  writer.writePacket(this);
 }

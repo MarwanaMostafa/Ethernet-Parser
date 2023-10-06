@@ -2,8 +2,8 @@
 // Created by Marwan on 10/6/2023.
 //
 
-#include "ECpriPacketFile.h"
-#include "../Packets/ECpriPacket.h"
+#include "RowPacketFile.h"
+#include "../Packets/RowEthernetPacket.h"
 #include "../Packets/EthernetPacket.h"
 #include <fstream>
 #include <iostream>
@@ -11,10 +11,10 @@
 
 using namespace std;
 
-void ECpriPacketFile ::writePacket(EthernetPacket *ethernetPacket) {
+void RowPacketFile ::writePacket(EthernetPacket *ethernetPacket) {
 
   ofstream outputFile("output.txt");
-  ECpriPacket *ecpriPacket = dynamic_cast<ECpriPacket *>(ethernetPacket);
+  RowEthernetPacket *ecpriPacket = dynamic_cast<RowEthernetPacket *>(ethernetPacket);
 
   if (!outputFile.is_open()) {
     cerr << "Error opening the output file." << endl;
@@ -23,19 +23,9 @@ void ECpriPacketFile ::writePacket(EthernetPacket *ethernetPacket) {
   outputFile << "Packet # " << packetCounter << endl;
   outputFile << ecpriPacket->getPcaket() << endl;
   outputFile << "CRC: " << ecpriPacket->getCRC() << endl;
-
-  outputFile << "Concatenation Indicator: "
-             << ecpriPacket->getConcatenationIndicator() << endl;
   outputFile << "Destination Address: " << ecpriPacket->getDestinationAddress()
              << endl;
 
-  outputFile << "Message Type: " << ecpriPacket->getMessageType() << endl;
-  outputFile << "Payload Size " << ecpriPacket->getPayloadSize() << endl;
-  outputFile << "Protocol Version: " << ecpriPacket->getProtocolVersion()
-             << endl;
-
-  outputFile << "RTC ID: " << ecpriPacket->getRTCID() << endl;
-  outputFile << "Sequence ID: " << ecpriPacket->getSequenceID() << endl;
   outputFile << "Source Address: " << ecpriPacket->getSourceAddress() << endl;
   outputFile << "Type: " << ecpriPacket->getType() << endl;
   outputFile << "**********************************" << endl;

@@ -3,3 +3,4 @@
 //
 
 #include "PacketData.h"
+int PacketData::packetCounter=0;

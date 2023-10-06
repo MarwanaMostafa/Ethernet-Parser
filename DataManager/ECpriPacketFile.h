@@ -1,16 +1,13 @@
 //
-// Created by lenovo on 10/5/2023.
+// Created by Marwan on 10/6/2023.
 //
 
-#ifndef ETHERNET_PARSER_ECPRIPACKETFILE_H
-#define ETHERNET_PARSER_ECPRIPACKETFILE_H
-
+#ifndef LASTVERSIONN_ECPRIPACKETFILE_H
+#define LASTVERSIONN_ECPRIPACKETFILE_H
 #include "FilePacketData.h"
-
-class ECpriPacketFile:public FilePacketData {
+class ECpriPacketFile : public FilePacketData {
 public:
-    void writePacket();
+  void writePacket(EthernetPacket *ethernetPacket) override;
 };
 
-
-#endif //ETHERNET_PARSER_ECPRIPACKETFILE_H
+#endif // LASTVERSIONN_ECPRIPACKETFILE_H
