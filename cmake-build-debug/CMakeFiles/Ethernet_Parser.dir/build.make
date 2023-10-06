@@ -68,19 +68,19 @@ include CMakeFiles/Ethernet_Parser.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ethernet_Parser.dir/flags.make
 
-CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/EthernetPacket.cpp
-CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\EthernetPacket.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\EthernetPacket.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\EthernetPacket.cpp
+CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
+CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/EthernetPacket.cpp
+CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\Packets\EthernetPacket.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\Packets\EthernetPacket.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\EthernetPacket.cpp
 
-CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\EthernetPacket.cpp > CMakeFiles\Ethernet_Parser.dir\EthernetPacket.cpp.i
+CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\EthernetPacket.cpp > CMakeFiles\Ethernet_Parser.dir\Packets\EthernetPacket.cpp.i
 
-CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\EthernetPacket.cpp -o CMakeFiles\Ethernet_Parser.dir\EthernetPacket.cpp.s
+CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\EthernetPacket.cpp -o CMakeFiles\Ethernet_Parser.dir\Packets\EthernetPacket.cpp.s
 
 CMakeFiles/Ethernet_Parser.dir/main.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
 CMakeFiles/Ethernet_Parser.dir/main.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/main.cpp
@@ -96,133 +96,117 @@ CMakeFiles/Ethernet_Parser.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\main.cpp -o CMakeFiles\Ethernet_Parser.dir\main.cpp.s
 
-CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/PacketData.cpp
-CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\PacketData.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\PacketData.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\PacketData.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
+CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/PacketData.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\DataManager\PacketData.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\DataManager\PacketData.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\PacketData.cpp
 
-CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\PacketData.cpp > CMakeFiles\Ethernet_Parser.dir\PacketData.cpp.i
+CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\PacketData.cpp > CMakeFiles\Ethernet_Parser.dir\DataManager\PacketData.cpp.i
 
-CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\PacketData.cpp -o CMakeFiles\Ethernet_Parser.dir\PacketData.cpp.s
+CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\PacketData.cpp -o CMakeFiles\Ethernet_Parser.dir\DataManager\PacketData.cpp.s
 
-CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/FilePacketData.cpp
-CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\FilePacketData.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\FilePacketData.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\FilePacketData.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
+CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/FilePacketData.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\DataManager\FilePacketData.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\DataManager\FilePacketData.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\FilePacketData.cpp
 
-CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\FilePacketData.cpp > CMakeFiles\Ethernet_Parser.dir\FilePacketData.cpp.i
+CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\FilePacketData.cpp > CMakeFiles\Ethernet_Parser.dir\DataManager\FilePacketData.cpp.i
 
-CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\FilePacketData.cpp -o CMakeFiles\Ethernet_Parser.dir\FilePacketData.cpp.s
+CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\FilePacketData.cpp -o CMakeFiles\Ethernet_Parser.dir\DataManager\FilePacketData.cpp.s
 
-CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/EthernetPacketFileWriter.cpp
-CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\EthernetPacketFileWriter.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\EthernetPacketFileWriter.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\EthernetPacketFileWriter.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
+CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/RowPacketFile.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\DataManager\RowPacketFile.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\DataManager\RowPacketFile.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\RowPacketFile.cpp
 
-CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\EthernetPacketFileWriter.cpp > CMakeFiles\Ethernet_Parser.dir\EthernetPacketFileWriter.cpp.i
+CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\RowPacketFile.cpp > CMakeFiles\Ethernet_Parser.dir\DataManager\RowPacketFile.cpp.i
 
-CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\EthernetPacketFileWriter.cpp -o CMakeFiles\Ethernet_Parser.dir\EthernetPacketFileWriter.cpp.s
+CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\RowPacketFile.cpp -o CMakeFiles\Ethernet_Parser.dir\DataManager\RowPacketFile.cpp.s
 
-CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/setStrategy.cpp
-CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\setStrategy.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\setStrategy.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\setStrategy.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
+CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/ECpriPacketFile.cpp
+CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\DataManager\ECpriPacketFile.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\DataManager\ECpriPacketFile.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\ECpriPacketFile.cpp
 
-CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\setStrategy.cpp > CMakeFiles\Ethernet_Parser.dir\setStrategy.cpp.i
+CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\ECpriPacketFile.cpp > CMakeFiles\Ethernet_Parser.dir\DataManager\ECpriPacketFile.cpp.i
 
-CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\setStrategy.cpp -o CMakeFiles\Ethernet_Parser.dir\setStrategy.cpp.s
+CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\DataManager\ECpriPacketFile.cpp -o CMakeFiles\Ethernet_Parser.dir\DataManager\ECpriPacketFile.cpp.s
 
-CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/ECpriPacketFile.cpp
-CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\ECpriPacketFile.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\ECpriPacketFile.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\ECpriPacketFile.cpp
+CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
+CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/ECpriPacket.cpp
+CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\Packets\ECpriPacket.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\Packets\ECpriPacket.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\ECpriPacket.cpp
 
-CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\ECpriPacketFile.cpp > CMakeFiles\Ethernet_Parser.dir\ECpriPacketFile.cpp.i
+CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\ECpriPacket.cpp > CMakeFiles\Ethernet_Parser.dir\Packets\ECpriPacket.cpp.i
 
-CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\ECpriPacketFile.cpp -o CMakeFiles\Ethernet_Parser.dir\ECpriPacketFile.cpp.s
+CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\ECpriPacket.cpp -o CMakeFiles\Ethernet_Parser.dir\Packets\ECpriPacket.cpp.s
 
-CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/ECpriPacket.cpp
-CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\ECpriPacket.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\ECpriPacket.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\ECpriPacket.cpp
+CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
+CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/RowEthernetPacket.cpp
+CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\Packets\RowEthernetPacket.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\Packets\RowEthernetPacket.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\RowEthernetPacket.cpp
 
-CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\ECpriPacket.cpp > CMakeFiles\Ethernet_Parser.dir\ECpriPacket.cpp.i
+CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\RowEthernetPacket.cpp > CMakeFiles\Ethernet_Parser.dir\Packets\RowEthernetPacket.cpp.i
 
-CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\ECpriPacket.cpp -o CMakeFiles\Ethernet_Parser.dir\ECpriPacket.cpp.s
-
-CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/flags.make
-CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj: C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/RowEthernetPacket.cpp
-CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj: CMakeFiles/Ethernet_Parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj -MF CMakeFiles\Ethernet_Parser.dir\RowEthernetPacket.cpp.obj.d -o CMakeFiles\Ethernet_Parser.dir\RowEthernetPacket.cpp.obj -c C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\RowEthernetPacket.cpp
-
-CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\RowEthernetPacket.cpp > CMakeFiles\Ethernet_Parser.dir\RowEthernetPacket.cpp.i
-
-CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\RowEthernetPacket.cpp -o CMakeFiles\Ethernet_Parser.dir\RowEthernetPacket.cpp.s
+CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\Packets\RowEthernetPacket.cpp -o CMakeFiles\Ethernet_Parser.dir\Packets\RowEthernetPacket.cpp.s
 
 # Object files for target Ethernet_Parser
 Ethernet_Parser_OBJECTS = \
-"CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj" \
+"CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj" \
 "CMakeFiles/Ethernet_Parser.dir/main.cpp.obj" \
-"CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj" \
-"CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj" \
-"CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj" \
-"CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj" \
-"CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj" \
-"CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj" \
-"CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj"
+"CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj" \
+"CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj" \
+"CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj" \
+"CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj" \
+"CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj" \
+"CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj"
 
 # External object files for target Ethernet_Parser
 Ethernet_Parser_EXTERNAL_OBJECTS =
 
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj
+Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj
 Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/main.cpp.obj
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj
-Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj
+Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj
+Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj
+Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj
+Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj
+Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj
+Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj
 Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/build.make
 Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/linkLibs.rsp
 Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/objects1.rsp
 Ethernet_Parser.exe: CMakeFiles/Ethernet_Parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Ethernet_Parser.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\karim\Desktop\Siemens\Week1\Assignment\OOP\Ethernet-Parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Ethernet_Parser.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ethernet_Parser.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

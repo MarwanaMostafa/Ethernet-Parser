@@ -128,173 +128,173 @@ Ethernet_Parser/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/build
 .PHONY : Ethernet_Parser/fast
 
-ECpriPacket.obj: ECpriPacket.cpp.obj
-.PHONY : ECpriPacket.obj
+DataManager/ECpriPacketFile.obj: DataManager/ECpriPacketFile.cpp.obj
+.PHONY : DataManager/ECpriPacketFile.obj
 
 # target to build an object file
-ECpriPacket.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.obj
-.PHONY : ECpriPacket.cpp.obj
+DataManager/ECpriPacketFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.obj
+.PHONY : DataManager/ECpriPacketFile.cpp.obj
 
-ECpriPacket.i: ECpriPacket.cpp.i
-.PHONY : ECpriPacket.i
+DataManager/ECpriPacketFile.i: DataManager/ECpriPacketFile.cpp.i
+.PHONY : DataManager/ECpriPacketFile.i
 
 # target to preprocess a source file
-ECpriPacket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.i
-.PHONY : ECpriPacket.cpp.i
+DataManager/ECpriPacketFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.i
+.PHONY : DataManager/ECpriPacketFile.cpp.i
 
-ECpriPacket.s: ECpriPacket.cpp.s
-.PHONY : ECpriPacket.s
+DataManager/ECpriPacketFile.s: DataManager/ECpriPacketFile.cpp.s
+.PHONY : DataManager/ECpriPacketFile.s
 
 # target to generate assembly for a file
-ECpriPacket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/ECpriPacket.cpp.s
-.PHONY : ECpriPacket.cpp.s
+DataManager/ECpriPacketFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/ECpriPacketFile.cpp.s
+.PHONY : DataManager/ECpriPacketFile.cpp.s
 
-ECpriPacketFile.obj: ECpriPacketFile.cpp.obj
-.PHONY : ECpriPacketFile.obj
+DataManager/FilePacketData.obj: DataManager/FilePacketData.cpp.obj
+.PHONY : DataManager/FilePacketData.obj
 
 # target to build an object file
-ECpriPacketFile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.obj
-.PHONY : ECpriPacketFile.cpp.obj
+DataManager/FilePacketData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.obj
+.PHONY : DataManager/FilePacketData.cpp.obj
 
-ECpriPacketFile.i: ECpriPacketFile.cpp.i
-.PHONY : ECpriPacketFile.i
+DataManager/FilePacketData.i: DataManager/FilePacketData.cpp.i
+.PHONY : DataManager/FilePacketData.i
 
 # target to preprocess a source file
-ECpriPacketFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.i
-.PHONY : ECpriPacketFile.cpp.i
+DataManager/FilePacketData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.i
+.PHONY : DataManager/FilePacketData.cpp.i
 
-ECpriPacketFile.s: ECpriPacketFile.cpp.s
-.PHONY : ECpriPacketFile.s
+DataManager/FilePacketData.s: DataManager/FilePacketData.cpp.s
+.PHONY : DataManager/FilePacketData.s
 
 # target to generate assembly for a file
-ECpriPacketFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/ECpriPacketFile.cpp.s
-.PHONY : ECpriPacketFile.cpp.s
+DataManager/FilePacketData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/FilePacketData.cpp.s
+.PHONY : DataManager/FilePacketData.cpp.s
 
-EthernetPacket.obj: EthernetPacket.cpp.obj
-.PHONY : EthernetPacket.obj
+DataManager/PacketData.obj: DataManager/PacketData.cpp.obj
+.PHONY : DataManager/PacketData.obj
 
 # target to build an object file
-EthernetPacket.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.obj
-.PHONY : EthernetPacket.cpp.obj
+DataManager/PacketData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.obj
+.PHONY : DataManager/PacketData.cpp.obj
 
-EthernetPacket.i: EthernetPacket.cpp.i
-.PHONY : EthernetPacket.i
+DataManager/PacketData.i: DataManager/PacketData.cpp.i
+.PHONY : DataManager/PacketData.i
 
 # target to preprocess a source file
-EthernetPacket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.i
-.PHONY : EthernetPacket.cpp.i
+DataManager/PacketData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.i
+.PHONY : DataManager/PacketData.cpp.i
 
-EthernetPacket.s: EthernetPacket.cpp.s
-.PHONY : EthernetPacket.s
+DataManager/PacketData.s: DataManager/PacketData.cpp.s
+.PHONY : DataManager/PacketData.s
 
 # target to generate assembly for a file
-EthernetPacket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/EthernetPacket.cpp.s
-.PHONY : EthernetPacket.cpp.s
+DataManager/PacketData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/PacketData.cpp.s
+.PHONY : DataManager/PacketData.cpp.s
 
-EthernetPacketFileWriter.obj: EthernetPacketFileWriter.cpp.obj
-.PHONY : EthernetPacketFileWriter.obj
+DataManager/RowPacketFile.obj: DataManager/RowPacketFile.cpp.obj
+.PHONY : DataManager/RowPacketFile.obj
 
 # target to build an object file
-EthernetPacketFileWriter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.obj
-.PHONY : EthernetPacketFileWriter.cpp.obj
+DataManager/RowPacketFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.obj
+.PHONY : DataManager/RowPacketFile.cpp.obj
 
-EthernetPacketFileWriter.i: EthernetPacketFileWriter.cpp.i
-.PHONY : EthernetPacketFileWriter.i
+DataManager/RowPacketFile.i: DataManager/RowPacketFile.cpp.i
+.PHONY : DataManager/RowPacketFile.i
 
 # target to preprocess a source file
-EthernetPacketFileWriter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.i
-.PHONY : EthernetPacketFileWriter.cpp.i
+DataManager/RowPacketFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.i
+.PHONY : DataManager/RowPacketFile.cpp.i
 
-EthernetPacketFileWriter.s: EthernetPacketFileWriter.cpp.s
-.PHONY : EthernetPacketFileWriter.s
+DataManager/RowPacketFile.s: DataManager/RowPacketFile.cpp.s
+.PHONY : DataManager/RowPacketFile.s
 
 # target to generate assembly for a file
-EthernetPacketFileWriter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/EthernetPacketFileWriter.cpp.s
-.PHONY : EthernetPacketFileWriter.cpp.s
+DataManager/RowPacketFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/DataManager/RowPacketFile.cpp.s
+.PHONY : DataManager/RowPacketFile.cpp.s
 
-FilePacketData.obj: FilePacketData.cpp.obj
-.PHONY : FilePacketData.obj
+Packets/ECpriPacket.obj: Packets/ECpriPacket.cpp.obj
+.PHONY : Packets/ECpriPacket.obj
 
 # target to build an object file
-FilePacketData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.obj
-.PHONY : FilePacketData.cpp.obj
+Packets/ECpriPacket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.obj
+.PHONY : Packets/ECpriPacket.cpp.obj
 
-FilePacketData.i: FilePacketData.cpp.i
-.PHONY : FilePacketData.i
+Packets/ECpriPacket.i: Packets/ECpriPacket.cpp.i
+.PHONY : Packets/ECpriPacket.i
 
 # target to preprocess a source file
-FilePacketData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.i
-.PHONY : FilePacketData.cpp.i
+Packets/ECpriPacket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.i
+.PHONY : Packets/ECpriPacket.cpp.i
 
-FilePacketData.s: FilePacketData.cpp.s
-.PHONY : FilePacketData.s
+Packets/ECpriPacket.s: Packets/ECpriPacket.cpp.s
+.PHONY : Packets/ECpriPacket.s
 
 # target to generate assembly for a file
-FilePacketData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/FilePacketData.cpp.s
-.PHONY : FilePacketData.cpp.s
+Packets/ECpriPacket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/ECpriPacket.cpp.s
+.PHONY : Packets/ECpriPacket.cpp.s
 
-PacketData.obj: PacketData.cpp.obj
-.PHONY : PacketData.obj
+Packets/EthernetPacket.obj: Packets/EthernetPacket.cpp.obj
+.PHONY : Packets/EthernetPacket.obj
 
 # target to build an object file
-PacketData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.obj
-.PHONY : PacketData.cpp.obj
+Packets/EthernetPacket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.obj
+.PHONY : Packets/EthernetPacket.cpp.obj
 
-PacketData.i: PacketData.cpp.i
-.PHONY : PacketData.i
+Packets/EthernetPacket.i: Packets/EthernetPacket.cpp.i
+.PHONY : Packets/EthernetPacket.i
 
 # target to preprocess a source file
-PacketData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.i
-.PHONY : PacketData.cpp.i
+Packets/EthernetPacket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.i
+.PHONY : Packets/EthernetPacket.cpp.i
 
-PacketData.s: PacketData.cpp.s
-.PHONY : PacketData.s
+Packets/EthernetPacket.s: Packets/EthernetPacket.cpp.s
+.PHONY : Packets/EthernetPacket.s
 
 # target to generate assembly for a file
-PacketData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/PacketData.cpp.s
-.PHONY : PacketData.cpp.s
+Packets/EthernetPacket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/EthernetPacket.cpp.s
+.PHONY : Packets/EthernetPacket.cpp.s
 
-RowEthernetPacket.obj: RowEthernetPacket.cpp.obj
-.PHONY : RowEthernetPacket.obj
+Packets/RowEthernetPacket.obj: Packets/RowEthernetPacket.cpp.obj
+.PHONY : Packets/RowEthernetPacket.obj
 
 # target to build an object file
-RowEthernetPacket.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.obj
-.PHONY : RowEthernetPacket.cpp.obj
+Packets/RowEthernetPacket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.obj
+.PHONY : Packets/RowEthernetPacket.cpp.obj
 
-RowEthernetPacket.i: RowEthernetPacket.cpp.i
-.PHONY : RowEthernetPacket.i
+Packets/RowEthernetPacket.i: Packets/RowEthernetPacket.cpp.i
+.PHONY : Packets/RowEthernetPacket.i
 
 # target to preprocess a source file
-RowEthernetPacket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.i
-.PHONY : RowEthernetPacket.cpp.i
+Packets/RowEthernetPacket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.i
+.PHONY : Packets/RowEthernetPacket.cpp.i
 
-RowEthernetPacket.s: RowEthernetPacket.cpp.s
-.PHONY : RowEthernetPacket.s
+Packets/RowEthernetPacket.s: Packets/RowEthernetPacket.cpp.s
+.PHONY : Packets/RowEthernetPacket.s
 
 # target to generate assembly for a file
-RowEthernetPacket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/RowEthernetPacket.cpp.s
-.PHONY : RowEthernetPacket.cpp.s
+Packets/RowEthernetPacket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/Packets/RowEthernetPacket.cpp.s
+.PHONY : Packets/RowEthernetPacket.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -320,30 +320,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-setStrategy.obj: setStrategy.cpp.obj
-.PHONY : setStrategy.obj
-
-# target to build an object file
-setStrategy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.obj
-.PHONY : setStrategy.cpp.obj
-
-setStrategy.i: setStrategy.cpp.i
-.PHONY : setStrategy.i
-
-# target to preprocess a source file
-setStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.i
-.PHONY : setStrategy.cpp.i
-
-setStrategy.s: setStrategy.cpp.s
-.PHONY : setStrategy.s
-
-# target to generate assembly for a file
-setStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ethernet_Parser.dir\build.make CMakeFiles/Ethernet_Parser.dir/setStrategy.cpp.s
-.PHONY : setStrategy.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -353,33 +329,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Ethernet_Parser
-	@echo ... ECpriPacket.obj
-	@echo ... ECpriPacket.i
-	@echo ... ECpriPacket.s
-	@echo ... ECpriPacketFile.obj
-	@echo ... ECpriPacketFile.i
-	@echo ... ECpriPacketFile.s
-	@echo ... EthernetPacket.obj
-	@echo ... EthernetPacket.i
-	@echo ... EthernetPacket.s
-	@echo ... EthernetPacketFileWriter.obj
-	@echo ... EthernetPacketFileWriter.i
-	@echo ... EthernetPacketFileWriter.s
-	@echo ... FilePacketData.obj
-	@echo ... FilePacketData.i
-	@echo ... FilePacketData.s
-	@echo ... PacketData.obj
-	@echo ... PacketData.i
-	@echo ... PacketData.s
-	@echo ... RowEthernetPacket.obj
-	@echo ... RowEthernetPacket.i
-	@echo ... RowEthernetPacket.s
+	@echo ... DataManager/ECpriPacketFile.obj
+	@echo ... DataManager/ECpriPacketFile.i
+	@echo ... DataManager/ECpriPacketFile.s
+	@echo ... DataManager/FilePacketData.obj
+	@echo ... DataManager/FilePacketData.i
+	@echo ... DataManager/FilePacketData.s
+	@echo ... DataManager/PacketData.obj
+	@echo ... DataManager/PacketData.i
+	@echo ... DataManager/PacketData.s
+	@echo ... DataManager/RowPacketFile.obj
+	@echo ... DataManager/RowPacketFile.i
+	@echo ... DataManager/RowPacketFile.s
+	@echo ... Packets/ECpriPacket.obj
+	@echo ... Packets/ECpriPacket.i
+	@echo ... Packets/ECpriPacket.s
+	@echo ... Packets/EthernetPacket.obj
+	@echo ... Packets/EthernetPacket.i
+	@echo ... Packets/EthernetPacket.s
+	@echo ... Packets/RowEthernetPacket.obj
+	@echo ... Packets/RowEthernetPacket.i
+	@echo ... Packets/RowEthernetPacket.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... setStrategy.obj
-	@echo ... setStrategy.i
-	@echo ... setStrategy.s
 .PHONY : help
 
 

@@ -84,55 +84,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/ECpriPacket.cpp">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/ECpriPacketFile.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/ECpriPacket.h">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/ECpriPacketFile.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/ECpriPacketFile.cpp">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/FilePacketData.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/ECpriPacketFile.h">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/FilePacketData.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/EthernetPacket.cpp">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/PacketData.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/EthernetPacket.h">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/PacketData.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/EthernetPacketFileWriter.cpp">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/RowPacketFile.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/EthernetPacketFileWriter.h">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/DataManager/RowPacketFile.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/FilePacketData.cpp">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/ECpriPacket.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/FilePacketData.h">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/ECpriPacket.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/PacketData.cpp">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/EthernetPacket.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/PacketData.h">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/EthernetPacket.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/RowEthernetPacket.cpp">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/RowEthernetPacket.cpp">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/RowEthernetPacket.h">
+		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/Packets/RowEthernetPacket.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
 		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/main.cpp">
-			<Option target="Ethernet_Parser"/>
-		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/setStrategy.cpp">
-			<Option target="Ethernet_Parser"/>
-		</Unit>
-		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/setStrategy.h">
 			<Option target="Ethernet_Parser"/>
 		</Unit>
 		<Unit filename="C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/CMakeLists.txt">

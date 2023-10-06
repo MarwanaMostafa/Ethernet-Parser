@@ -256,6 +256,15 @@ Ethernet_Parser_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Ethernet_Parser_SOURCE_DIR:STATIC=C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser
 
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser/cmake-build-debug
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/Users/karim/Desktop/Siemens/Week1/Assignment/OOP/Ethernet-Parser
+
 
 ########################
 # INTERNAL cache entries
