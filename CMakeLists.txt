@@ -4,14 +4,14 @@ project(Ethernet_Parser)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Ethernet_Parser
-        EthernetPacket.cpp
+        Packets/EthernetPacket.cpp
         main.cpp
-        PacketData.cpp
-        FilePacketData.cpp
-        EthernetPacketFileWriter.cpp
-        setStrategy.cpp
-        ECpriPacketFile.cpp
-        ECpriPacket.cpp
-        RowEthernetPacket.cpp
+        DataManager/PacketData.cpp
+        DataManager/FilePacketData.cpp
+        DataManager/EthernetPacketFile.cpp
+        Strategy/setStrategy.cpp
+        DataManager/ECpriPacketFile.cpp
+        Packets/ECpriPacket.cpp
+        Packets/RowEthernetPacket.cpp
 
         )

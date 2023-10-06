@@ -5,7 +5,7 @@
 #ifndef ETHERNET_PARSER_SETSTRATEGY_H
 #define ETHERNET_PARSER_SETSTRATEGY_H
 
-#include "PacketData.h"
+#include "../DataManager/PacketData.h"
 
 class setStrategy {
 private:

@@ -1,13 +1,13 @@
 #include <iostream>
-#include "EthernetPacket.h"
-#include "ECpriPacket.h"
-#include "setStrategy.h"
-#include "EthernetPacketFileWriter.h"
+#include "Packets/EthernetPacket.h"
+#include "Packets/ECpriPacket.h"
+#include "Strategy/setStrategy.h"
+#include "DataManager/EthernetPacketFile.h"
 
 using namespace std;
 
 int main() {
-    setStrategy packet(new EthernetPacketFileWriter());
+    setStrategy packet(new EthernetPacketFile());
     packet.readData();
 
 
