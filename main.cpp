@@ -10,7 +10,6 @@ int main() {
     setStrategy packet(new EthernetPacketFile());
     packet.readData();
 
-
     EthernetPacket *obj1 = new ECpriPacket(packet.getStrategy()->getData());
     obj1->parse();// Use obj1 as needed
 
