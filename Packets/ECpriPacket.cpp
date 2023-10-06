@@ -60,24 +60,7 @@ void ECpriPacket::parse() {
 
   this->sequenceID = this->packet.substr(startingSequenceID, sequenceIdLength);
 
-  // Output the parsed fields with packet number
-  static int packetCounter = 0; // Initialize packet counter
-  std::cout << "Packet #" << packetCounter << ":" << std::endl;
-  std::cout << this->packet << std::endl; // Output the entire raw data
-  std::cout << "CRC: " << this->CRC << std::endl;
-  std::cout << "Concatenation Indicator: " << this->concatenationIndicator
-            << std::endl;
-  std::cout << "Destination Address: " << this->destinationAddress << std::endl;
-  std::cout << "Message Type: " << this->messageType << std::endl;
-  std::cout << "Payload Size: " << this->payloadSize << std::endl;
-  std::cout << "Protocol Version: " << this->protocolVersion << std::endl;
-  std::cout << "RTC ID: " << this->RTCID << std::endl;
-  std::cout << "Sequence ID: " << this->sequenceID << std::endl;
-  std::cout << "Source Address: " << this->sourceAddress << std::endl;
-  std::cout << "Type: " << this->type << std::endl;
-  std::cout << std::string(160, '*') << std::endl; // Output separator
 
-  packetCounter++; // Increment the packet counter for the next packet
   ECpriPacketFile writer;
   writer.writePacket(this);
 }

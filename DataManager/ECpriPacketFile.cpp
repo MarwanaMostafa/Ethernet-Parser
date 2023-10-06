@@ -13,7 +13,7 @@ using namespace std;
 
 void ECpriPacketFile ::writePacket(EthernetPacket *ethernetPacket) {
 
-  ofstream outputFile("output.txt");
+  ofstream outputFile("output", ios::app);
   ECpriPacket *ecpriPacket = dynamic_cast<ECpriPacket *>(ethernetPacket);
 
   if (!outputFile.is_open()) {
@@ -40,5 +40,4 @@ void ECpriPacketFile ::writePacket(EthernetPacket *ethernetPacket) {
   outputFile << "Type: " << ecpriPacket->getType() << endl;
   outputFile << "**********************************" << endl;
   packetCounter++;
-  outputFile.close();
 }

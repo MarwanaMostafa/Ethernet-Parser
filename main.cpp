@@ -7,7 +7,9 @@
 #include "Factory/EthernetPacketFactory.h"
 #include "Factory/EthernetPacketFactoryImpl.h"
 #include <iostream>
+
 using namespace std;
+
 int main() {
     PacketData *reader = new ECpriPacketFile();
     EthernetPacketFactory *factory = new EthernetPacketFactoryImpl();
@@ -23,9 +25,6 @@ int main() {
 
     delete reader;
     delete factory;
-
-
-
 
   return 0;
 }

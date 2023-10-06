@@ -13,7 +13,7 @@ using namespace std;
 
 void RowPacketFile ::writePacket(EthernetPacket *ethernetPacket) {
 
-  ofstream outputFile("output.txt");
+  ofstream outputFile("output", ios::app);
   RowEthernetPacket *ecpriPacket = dynamic_cast<RowEthernetPacket *>(ethernetPacket);
 
   if (!outputFile.is_open()) {

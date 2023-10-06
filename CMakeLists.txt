@@ -13,4 +13,5 @@ add_executable(Ethernet_Parser
         Packets/ECpriPacket.cpp
         Packets/RowEthernetPacket.cpp
         Factory/EthernetPacketFactory.cpp
+        Factory/EthernetPacketFactoryImpl.cpp
 )
