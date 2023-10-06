@@ -9,12 +9,13 @@
 
 #include <iostream>
 #include <string>
+#include <unordered_map>
 
-
+using namespace std;
 class FilePacketData : public PacketData {
 public:
     void readPacket() ;
-    virtual void writePacket() = 0;
+    virtual void writePacket(unordered_map<string,string>& data) = 0;
     std::string getData () const;
 
 private:

@@ -9,6 +9,17 @@
 
 using namespace std;
 
-void EthernetPacketFileWriter::writePacket() {
+void EthernetPacketFileWriter::writePacket(unordered_map<string,string>& data) {
+    ofstream outputFile("output.txt");
 
+    if (!outputFile.is_open()) {
+        cerr << "Error opening the output file." << endl;
+        return;
+    }
+
+    for (const auto& entry : data) {
+        outputFile << entry.first << ": " << entry.second << endl;
+    }
+
+    outputFile.close();
 }
