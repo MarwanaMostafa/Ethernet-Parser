@@ -1,6 +1,5 @@
 # Ethernet-Parser
 
----
 
 ## How To Run :
 1. **Move Input File**: Place your input file in the same directory as the project.
