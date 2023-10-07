@@ -4,6 +4,6 @@ COPY . /usr/src/cpp_project
 
 WORKDIR /usr/src/cpp_project
 
-RUN g++ -o main main.cpp
+RUN g++ *.cpp ./DataManager/*.cpp ./Factory/*.cpp ./Packets/*.cpp -o main.exe
 
-CMD ["./main"]
+CMD ["./main.exe"]

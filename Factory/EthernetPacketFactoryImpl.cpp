@@ -6,6 +6,7 @@
 #include "../Packets/EthernetPacket.h"
 #include "../Packets/ECpriPacket.h"
 #include "../Packets/RowEthernetPacket.h"
+#include <iostream>
 
 EthernetPacket* EthernetPacketFactoryImpl::createPacket(string packetString) {
     string subString = packetString.substr(40, 4);
