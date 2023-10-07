@@ -10,6 +10,9 @@
 
    ```bash
    .\build_and_run.bat
+## Alternative:
+1. Build DockerImage
+2. **Then run the image and mount the output.txt**: docker run -v /path/to/output.txt:/usr/src/cpp_project <image-name>   
 
 ---
 ## UML Diagram :
