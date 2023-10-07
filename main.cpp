@@ -2,7 +2,6 @@
 #include "Packets/ECpriPacket.h"
 #include "Packets/EthernetPacket.h"
 #include "Packets/RowEthernetPacket.h"
-#include "Strategy/setStrategy.h"
 #include "DataManager/RowPacketFile.h"
 #include "Factory/EthernetPacketFactory.h"
 #include "Factory/EthernetPacketFactoryImpl.h"
